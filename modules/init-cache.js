@@ -1,4 +1,4 @@
-const init = () => {
+const init = async() => {
     global.cache.create('usernames');
     global.logger.debug('cache created', 'usernames');
     global.cache.create('tags');
@@ -10,6 +10,7 @@ const init = () => {
             return true;
         }
     };
+    return true;
 };
 
 export default init;
