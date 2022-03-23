@@ -25,5 +25,7 @@ MONGO_URL=YOUR_MONGO_URL
 ```
 Run `yarn start` in a terminal to get the bot up and running.
 
+TODO: convert to typescript
 
-updates soontm (999)
+visit [https://github.com/BunkerBots/KR-Genie](BunkerBots repo) for the updated version 
+
